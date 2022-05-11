@@ -10,6 +10,8 @@ body {
     margin: 0;
 }
 
+/* header section */
+
 .header {
     display:flex;
     background-color: #1F2937;
@@ -39,6 +41,8 @@ a {
     text-decoration: none;
     color: #E5E7EB
 }
+
+/* hero section */
 
 .hero, .product-info,.quote-container,.signup-container {
     flex: 1 1 auto;
@@ -89,7 +93,7 @@ a {
     border-radius: 5px;
 }
 
-
+/* product section */
 
 .product-info {
     display: flex;
@@ -154,6 +158,8 @@ a {
     font-size: 24px;
     padding: 8px;
 }
+
+/* signup section */
 
 .signup-container {
     display: flex;
