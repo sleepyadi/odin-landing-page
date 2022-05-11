@@ -125,10 +125,77 @@ a {
 }
 
 .product-description {
-    width: 180px;
+    width: 190px;
     height: 180px;
     text-align: center;
     color: #5c667a;
+}
+
+
+/* quote section */
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    padding: 8px;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 8px;
+}
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-bar {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    padding: 48px 100px;
+    gap: 160px;
+}
+
+.signup-title {
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 5px;
+    color:#E5E7EB
+}
+
+.signup-text {
+    font-size: 18px;
+    padding: 5px;
+    color:#E5E7EB  
+}
+
+.signup-button-2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.signup-button-2 button {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-weight: bold;
+    padding: 6px 12px;
+    font-size: 18px;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
 }
 
 
